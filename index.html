@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./siteicon.png" type="image/x-icon">
+    <title>Ресторан Камила Караганда</title>
+</head>
+<body>
+
+    <header>
+            <div class="h-content">
+
+                <div class="logo">
+                    <a href="https://restoran-kamila.github.io/">
+                        <img src="./logo.png">
+                    </a>
+                </div>
+
+                <div class="buttons">
+
+                    <div class="main-block">
+                        <a href="https://restoran-kamila.github.io/">
+                            <button class="main-btn">Главная</button>
+                        </a>
+                    </div>
+
+                    <div class="banquet-block">
+                        <a href="https://restoran-kamila.github.io/#bankets">
+                            <button class="banquet-btn">Банкетный зал</button>
+                        </a>
+                    </div>
+
+                    <div class="menu-block">
+                        <button class="menubtn">Меню
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="menu-content">
+                            <a href="banquet-menu">Банкетное меню</a>
+                            <a href="as-menu">Меню ас</a>
+                            <a href="eskealu-menu">Меню поминок</a>
+                        </div>
+                      </div>
+
+
+                    <div class="contact-block">
+                        <a href="https://restoran-kamila.github.io/#contacts">
+                            <button class="contact-btn">Контакты</button>
+                        </a>
+                    </div>
+
+                    <div class="number-block">
+                        <a href="tel:+77004994284">
+                            <button class="number-btn">+7 700 499 42 84</button>
+                        </a>
+                    </div>
+
+                    <div class="language-block">
+                        <a href="https://restoran-kamila.github.io/kz/">
+                            <button class="language-btn">KZ</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" id="menu__btn"  for="menu__toggle">
+                      <span id="span"></span>
+                    </label>
+                    
+                    <ul class="menu__box" id="menu__box">
+                        <a href="https://restoran-kamila.github.io/">
+                            <img class="logo-mobile" src="./logo.png">
+                        </a>
+                        <br>
+                      <li><a class="menu__item" href="https://restoran-kamila.github.io/" id="main-btn">Главная</a></li>
+                            <li><a class="menu__item" href="https://restoran-kamila.github.io/#bankets" id="banket-btn" >Банкетный зал</a></li>
+                            <li><a class="menu__item" href="https://restoran-kamila.github.io/menu/">Меню</a></li>
+                            <li><a class="menu__item" href="https://restoran-kamila.github.io/#contacts" id="contact_btn">Контакты</a></li>
+                            <li class="kzmbt"><a class="mobile_language" href="https://restoran-kamila.github.io/kz/">KZ</a></li>
+                    </ul>
+                  </div>
+
+            </div>
+    </header>
+
+    <div class="banner">
+        <div class="banner-block">
+            <h1 class="banner-teg">Ресторан Камила - <br> банкетный зал премиум класса</h1>
+            
+            <a href="tel:+77004994284">
+                <button class="order-call">Заказать звонок</button>
+            </a>
+        </div>
+    </div>
+
+    <div class="information">
+        <div class="information-block">
+            <div class="agents">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3.979 15.045c-1.468.978-2.168 2.263-2.231 3.955h-1.748c.069-2.346 1.1-4.186 3.153-5.497l.826 1.542zm15.36-14.045c-1.852 0-3.198.966-4.138 2.619l3.545 6.618c3.4.222 5.254-2.15 5.254-4.575 0-2.598-2.098-4.662-4.661-4.662zm-14.867 10.728l1.557 2.906 10.539-4.229-2.716-5.07-9.38 6.393zm4.765 3.773c.633.619.764 1.648.764 2.558v4.941h1.999v-5.097c0-1.776.662-3.024 1.735-4.207l-4.498 1.805z"/></svg>
+                <br>
+                <p>Сцена, зона для курящих, музыкальное сопровождение, оформление зала</p>
+            </div>
+            <div class="num-halls">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.415 12.393l1.868-2.289c.425-.544.224-.988-.055-2.165-.205-.871-.044-1.854.572-2.5 1.761-1.844 5.343-5.439 5.343-5.439l.472.37-3.693 4.728.79.617 3.87-4.59.479.373-3.558 4.835.79.618 3.885-4.58.443.347-3.538 4.85.791.617 3.693-4.728.433.338s-2.55 4.36-3.898 6.535c-.479.771-1.425 1.161-2.334 1.167-1.211.007-1.685-.089-2.117.464l-2.281 2.795c2.445 2.962 4.559 5.531 5.573 6.829.771.987.065 2.421-1.198 2.421-.42 0-.853-.171-1.167-.573l-8.36-10.072s-.926.719-1.944 1.518c-3.172-5.184-6.267-11.661-6.267-13.955 0-.128-.034-.924.732-.924.245 0 .493.116.674.344.509.642 5.415 6.513 10.002 12.049m-2.952 3.617l1.953 2.365-4.115 5.055c-.295.378-.736.576-1.182.576-1.198 0-1.991-1.402-1.189-2.428l4.533-5.568z" fill="#030405"/></svg>
+                <br>
+                <p>2 банкетных залов, VIP-зал</p>
+            </div>
+            <div class="num-humans">
+                <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"><path d="M17.997 18h-11.995l-.002-.623c0-1.259.1-1.986 1.588-2.33 1.684-.389 3.344-.736 2.545-2.209-2.366-4.363-.674-6.838 1.866-6.838 2.491 0 4.226 2.383 1.866 6.839-.775 1.464.826 1.812 2.545 2.209 1.49.344 1.589 1.072 1.589 2.333l-.002.619zm4.811-2.214c-1.29-.298-2.49-.559-1.909-1.657 1.769-3.342.469-5.129-1.4-5.129-1.265 0-2.248.817-2.248 2.324 0 3.903 2.268 1.77 2.246 6.676h4.501l.002-.463c0-.946-.074-1.493-1.192-1.751zm-22.806 2.214h4.501c-.021-4.906 2.246-2.772 2.246-6.676 0-1.507-.983-2.324-2.248-2.324-1.869 0-3.169 1.787-1.399 5.129.581 1.099-.619 1.359-1.909 1.657-1.119.258-1.193.805-1.193 1.751l.002.463z"/></svg>
+                <br>
+                <p>Банкетные залы вместительностью от 70 до 500 человек</p>
+            </div>
+            <div class="price-person">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.628 21.412l5.969-5.97 1.458 3.71-12.34 4.848-4.808-12.238 9.721 9.65zm-1.276-21.412h-9.352v9.453l10.625 10.547 9.375-9.375-10.648-10.625zm4.025 9.476c-.415-.415-.865-.617-1.378-.617-.578 0-1.227.241-2.171.804-.682.41-1.118.584-1.456.584-.361 0-1.083-.408-.961-1.218.052-.345.25-.697.572-1.02.652-.651 1.544-.848 2.276-.106l.744-.744c-.476-.476-1.096-.792-1.761-.792-.566 0-1.125.227-1.663.677l-.626-.627-.698.699.653.652c-.569.826-.842 2.021.076 2.938 1.011 1.011 2.188.541 3.413-.232.6-.379 1.083-.563 1.475-.563.589 0 1.18.498 1.078 1.258-.052.386-.26.763-.621 1.122-.451.451-.904.679-1.347.679-.418 0-.747-.192-1.049-.462l-.739.739c.463.458 1.082.753 1.735.753.544 0 1.087-.201 1.612-.597l.54.538.697-.697-.52-.521c.743-.896 1.157-2.209.119-3.247zm-9.678-7.476c.938 0 1.699.761 1.699 1.699 0 .938-.761 1.699-1.699 1.699-.938 0-1.699-.761-1.699-1.699 0-.938.761-1.699 1.699-1.699z"/></svg>
+                <br>
+                <p>8000–17000 тенге на человека</p>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="bankets" id="bankets">
+        <div class="bankets-information">
+            <div class="bankets-tag">
+                <h1 class="bankets-h">∼Банкетные залы∼</h1>
+            </div>
+            <div class="bankets-content">
+                <a class="links_banquet" href="https://restoran-kamila.github.io/small-hall">
+                    <div class="small-hall">
+                        <div class="hall-information">
+                            <img src="./smallhall.jpg" alt="https://restoran-kamila.github.io/small-hall">
+                            <h1 class="hall-tag">Малый зал</h1>
+                            <br>
+                            <p>Малый банкетный зал – прекрасно подойдет для проведения небольшого праздника.
+                                Здесь гости будут чувствовать себя очень комфортно, поскольку места хватит и для танцев и для свободного передвижения.</p>
+                            <h3 class="person-num">Количество гостей</h3>
+                            <p>до 200</p>
+                            <h3 class="provided">Предоставляется</h3>
+                            <p>Сцена, Музыкальное и Световое оборудование</p>
+                            <br>
+                            <a class="detail_btn" href="">
+                                <button>Подробнее &#8594;</button>
+                            </a>
+                        </div>
+                    </div>
+            </a>
+            <br>
+            <a class="links_banquet" href="https://restoran-kamila.github.io/big-hall">
+                <div class="big-hall">
+                    <div class="hall-information">
+                        <img src="./hall2.jpg" alt="https://restoran-kamila.github.io/big-hall">
+                        <h1 class="hall-tag">Большой зал</h1>
+                        <br>
+                        <p>Обширный банкетный зал, наполненный атмосферой роскоши, света и уюта. Большой зал оснащён всем необходимым для того, чтобы Ваш праздник остался в памяти гостей на долгие годы.</p>
+                        <h3 class="person-num">Количество гостей</h3>
+                        <p>до 500</p>
+                        <h3 class="provided">Предоставляется</h3>
+                        <p>Чайная комната,  LED экран, Сцена, Музыкальное и Световое оборудование</p>
+                        <br>
+                        <a class="detail_btn"  href="">
+                            <button>Подробнее &#8594;</button>
+                        </a>
+                    </div>
+                </div>
+            </a>
+            <br>
+            <a class="links_banquet" href="https://restoran-kamila.github.io/vip-hall">
+                <div class="vip-hall">
+                    <div class="hall-information">
+                        <img src="./smallhall2.jpg" alt="https://restoran-kamila.github.io/vip-hall">
+                        <h1 class="hall-tag">VIP зал</h1>
+                        <br>
+                        <p>VIP зал, идеально подходит для проведения небольших семейных праздников, официальных встреч за деловым ужином и других событий. Зал выделяется изысканным оформлением и уютной атмосферой</p>
+                        <h3 class="person-num">Количество гостей</h3>
+                        <p>до 20</p>
+                        <h3 class="provided">Предоставляется</h3>
+                        <p>Музыкальное оборудование</p>
+                        <br>
+                        <br>
+                        <br>
+                        <a class="detail_btn"  href="">
+                            <button>Подробнее &#8594;</button>
+                        </a>
+                    </div>
+                </div>
+            </a>
+        </div>
+        </div>
+    </div>
+
+    <br>
+   
+    <div class="twogismap">
+        <div class="map-content">
+            <a class="dg-widget-link" href="http://2gis.kz/karaganda/firm/70000001038618745/center/73.1379475585709,49.781809957336385/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть на карте Караганды</a><div class="dg-widget-link"><a href="http://2gis.kz/karaganda/firm/70000001038618745/photos/70000001038618745/center/73.1379475585709,49.781809957336385/zoom/17?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=photos">Фотографии компании</a></div><div class="dg-widget-link"><a href="http://2gis.kz/karaganda/center/73.138327,49.779889/zoom/16/routeTab/rsType/bus/to/73.138327,49.779889╎Kamila, ресторан?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route">Найти проезд до Kamila, ресторан</a></div><script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js"></script><script charset="utf-8">new DGWidgetLoader({"width":1120,"height":400,"borderColor":"#a3a3a3","pos":{"lat":49.781809957336385,"lon":73.1379475585709,"zoom":16},"opt":{"city":"karaganda"},"org":[{"id":"70000001038618745"}]});</script><noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript. Включите его в настройках вашего браузера.</noscript>
+        </div>
+    </div>
+
+    <br>
+
+    <footer id="contacts">
+        <div class="footer-content">
+            <div class="restoran_information">
+                
+                <div class="calling">
+                        <div class="call-num">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                                <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                              </svg>
+                              <h4>Номер телефона</h4>
+                        </div>
+                        <a href="tel:+77004994284">+7 700 499 42 84</a>
+                </div>
+
+                <div class="graphic">
+                    <div class="graphic-info">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                          </svg>
+                          <h4>График работы:</h4>
+                    </div>
+                    <p>Ежедневно с 10:00–01:00</p>
+                </div>
+
+                <div class="adress">
+                    <div class="adress-info">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                          </svg>
+                          <h4>Адрес:</h4>
+                    </div>
+                    <p>Г.Караганда Ул.Сатыбалдина, 28/2</p>
+                </div>
+
+                <div class="instagram">
+                    <div class="insta-tag">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                        </svg>
+                        <h4>Инстаграм:</h4>
+                    </div>
+                    <a href="https://www.instagram.com/restoran_kamila_krg/">restoran_kamila_krg</a>
+                </div>
+
+                <div class="live-call">
+                    <a href="tel:77004994284">
+                        <button class="footer-order-call">Заказать звонок</button>
+                    </a>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="creator">
+                <a href="https://www.instagram.com/jaicode/">
+                <img class="jaicode" src="./jaicode.png" alt="">
+                </a>
+            </div>
+        </div>
+        
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
